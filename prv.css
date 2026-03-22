@@ -1,0 +1,101 @@
+p{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    padding:  100px ;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: wavy;
+   
+}
+h1{
+    color: rgb(8, 27, 237);
+    font-size: 40px;
+}
+h2{
+    color: rgb(8, 27, 237);
+    font-size: 40px;
+    
+}
+.rep1 {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 100px;
+    text-align:left 100px;
+    text-decoration: wavy;
+}
+.rep2{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 100px;
+    text-align:right 100px;
+    text-decoration: wavy;
+   
+}
+
+
+#noButton {
+    width: center;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 10px;
+   text-align: left;
+    position: absolute;
+    margin-right: 35%;
+    margin-left: 75%;
+    margin-top: 10%;
+    transform: translate(-50%, -50%);
+    width: 42%;
+}
+#oussama {
+   text-align: center ;
+    position: absolute;
+    margin-right: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+   
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e67ac9, #fad0c4, #b81218);
+    background-size: 200% 200%;
+    animation: gradientShift 5s ease infinite;
+    position: relative;
+    background-image: url(do.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    
+}
+
+
+.answerButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "courier";
+  margin-bottom: 20px;
+  background-color: #4a0771;
+  color: #e67373;
+  border-radius: 12px;
+  border: 2px solid #4a0771;
+  box-shadow: 1px 1px 2px #ff9494;
+  transition: 0.3s;
+}
+
+.answerButton:hover {
+  background-color: #ff9494;
+  color: #ffe3e1;
+  border: 2px solid #ff9494;
+  box-shadow: 1px 1px 2px #ffe3e1;
+}

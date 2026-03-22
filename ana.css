@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier";
+  background-color: #de0aff;
+  color: #b40ae7;
+  text-decoration: wavy;
+  background: linear-gradient(135deg, #e67ac9, #fad0c4, #b81218);
+  background-size: 200% 200%;
+  animation: gradientShift 5s ease infinite;
+}
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#thankyou {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#rizz {
+  margin-bottom: 10 px;
+  width: 27%;
+  height: auto;
+  
+}
